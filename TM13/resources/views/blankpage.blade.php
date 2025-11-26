@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.main')
 @section('content')
 
 <!DOCTYPE html>
@@ -16,6 +16,9 @@
 <body>
   <div class="container mt-4">
     
+    <!-- Title -->
+    <h2 class="mb-3">Blank Page</h2>
+    
     <!-- Breadcrumb -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -24,13 +27,10 @@
       </ol>
     </nav>
 
-    <!-- Title -->
-    <h2 class="mb-3">Blank Page</h2>
-
     <!-- Card -->
     <div class="card">
       <div class="card-body">
-        Ini adalah blank page sesuai tugas.
+        Tugas Juanne
       </div>
     </div>
 
